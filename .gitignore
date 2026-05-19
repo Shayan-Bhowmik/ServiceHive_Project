@@ -1,0 +1,33 @@
+node_modules
+.dist
+coverage
+.env
+.env.local
+.env.*.local
+dist
+build
+.vscode/settings.json
+.DS_Store
+
+# Explicit per-package node_modules
+/client/node_modules/
+/server/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Caches
+.cache
+.parcel-cache
+.eslintcache
+
+# Build outputs
+/client/dist/
+/server/dist/
