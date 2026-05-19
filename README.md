@@ -345,7 +345,7 @@ A: No, delete is admin-only.
 
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-MIT — you can use, modify, and distribute this project with attribution.
+MIT - you can use, modify, and distribute this project with attribution.
 
 ## Footer
 
