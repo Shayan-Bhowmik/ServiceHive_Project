@@ -10,6 +10,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [File Structure](#file-structure)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
@@ -44,6 +45,41 @@ Key differentiators:
 - Runtime schema validation with Zod.
 - JWT auth with bcrypt password hashing.
 - Clear separation of UI, API, validators, and shared types.
+
+## File Structure
+
+```text
+ServiceHive/
+├─ client/                  # React + Vite frontend
+│  ├─ src/
+│  │  ├─ api/               # API client wrappers
+│  │  ├─ components/        # Shared UI and layout components
+│  │  ├─ context/           # Auth and theme context providers
+│  │  ├─ hooks/             # Custom React hooks
+│  │  ├─ pages/             # Route-level pages
+│  │  ├─ routes/            # Route guards and navigation helpers
+│  │  ├─ types/             # Client-side TypeScript types
+│  │  └─ utils/             # Utility helpers
+│  ├─ index.html            # Vite entry HTML
+│  ├─ package.json          # Frontend scripts and dependencies
+│  └─ vercel.json           # SPA rewrite rules for Vercel
+├─ server/                  # Express + MongoDB backend
+│  ├─ src/
+│  │  ├─ config/            # Environment and database setup
+│  │  ├─ controllers/       # Request handlers
+│  │  ├─ middleware/        # Auth, error, and role middleware
+│  │  ├─ models/            # Mongoose models
+│  │  ├─ routes/            # API route definitions
+│  │  ├─ types/             # Server-side TypeScript types
+│  │  ├─ utils/             # JWT, async, and response helpers
+│  │  └─ validators/        # Zod schemas
+│  ├─ package.json          # Backend scripts and dependencies
+│  └─ tsconfig.json         # TypeScript config
+├─ docker-compose.yml       # Local multi-service setup
+├─ render.yaml              # Render backend deployment blueprint
+├─ LICENSE                  # MIT license text
+└─ README.md                # Project documentation
+```
 
 ## Features
 
