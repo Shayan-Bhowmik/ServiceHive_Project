@@ -7,11 +7,6 @@
 
 > Secure CRM-style lead management for sales teams.
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://example.com)
-[![Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey)](https://example.com)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://example.com)
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-
 ## Table of Contents
 
 - [Overview](#overview)
