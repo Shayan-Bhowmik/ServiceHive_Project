@@ -3,17 +3,6 @@
    Keep this file in sync with the repo as the project evolves.
 -->
 
-```text
-    _____ _                 _   _      _            _
-   / ____| |               | | | |    | |          | |
- | (___ | |__   __ _ _ __ | |_| | ___| |_ ___  ___| |_
-   \___ \| '_ \ / _` | '_ \| __| |/ _ \ __/ _ \/ __| __|
-   ____) | | | | (_| | |_) | |_| |  __/ ||  __/ (__| |_
- |_____/|_| |_|\__,_| .__/ \__|_|\___|\__\___|\___|\__|
-                               | |
-                               |_|
-```
-
 # Smart Leads Dashboard
 
 > Secure CRM-style lead management for sales teams.
